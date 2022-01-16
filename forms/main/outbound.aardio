@@ -5,30 +5,30 @@ import win.ui;
 /*DSG{{*/
 var winform = win.form(text="winXray - 代理服务器配置";right=999;bottom=504;bgcolor=16777215;exmode="none";min=false;mode="popup")
 winform.add(
-btnAddOutbound={cls="plus";text="新 增";left=705;top=410;right=808;bottom=446;align="left";bgcolor=14935259;db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=22}};iconText='\uF067';notify=1;textPadding={left=40};z=17};
-btnCopySharedLink={cls="plus";text="复制";left=829;top=471;right=901;bottom=496;align="left";clip=1;db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C1';notify=1;textPadding={left=30};z=1};
-btnGenGuid={cls="plus";text="生成";left=914;top=259;right=986;bottom=284;align="left";clip=1;dr=1;dt=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0AD';notify=1;textPadding={left=30};z=19};
-btnImportSharedLink={cls="plus";text="导入";left=912;top=471;right=984;bottom=496;align="left";clip=1;db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C1';notify=1;textPadding={left=30};z=21};
-btnInsertField={cls="plus";text="插入更多配置字段";left=10;top=0;right=191;bottom=24;align="left";dl=1;dt=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF196 ';notify=1;textPadding={left=30};z=18};
-btnSaveOutbound={cls="plus";text="保 存";left=826;top=410;right=929;bottom=446;align="left";bgcolor=11580047;db=1;disabled=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=22}};iconText='\uF0C7';notify=1;textPadding={left=40};z=16};
-btnUpdateCore={cls="plus";text="下载 / 更新 NaÏveProxy Core";left=637;top=61;right=979;bottom=89;align="left";color=3947580;dr=1;dt=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-17;name='FontAwesome');padding={left=18}};iconText='\uF0AB';notify=1;textPadding={left=50};z=23};
+btnAddOutbound={cls="plus";text="新 增";left=705;top=410;right=808;bottom=446;align="left";bgcolor=14935259;db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=22}};iconText='\uF067';notify=1;textPadding={left=40};z=17};
+btnCopySharedLink={cls="plus";text="复制";left=829;top=471;right=901;bottom=496;align="left";clip=1;db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C1';notify=1;textPadding={left=30};z=1};
+btnGenGuid={cls="plus";text="生成";left=914;top=259;right=986;bottom=284;align="left";clip=1;color=3947580;dr=1;dt=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0AD';notify=1;textPadding={left=30};z=19};
+btnImportSharedLink={cls="plus";text="导入";left=912;top=471;right=984;bottom=496;align="left";clip=1;db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C1';notify=1;textPadding={left=30};z=21};
+btnInsertField={cls="plus";text="插入更多配置字段";left=10;top=0;right=191;bottom=24;align="left";dl=1;dt=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF196 ';notify=1;textPadding={left=30};z=18};
+btnSaveOutbound={cls="plus";text="保 存";left=826;top=410;right=929;bottom=446;align="left";bgcolor=11580047;db=1;disabled=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=22}};iconText='\uF0C7';notify=1;textPadding={left=40};z=16};
+btnUpdateCore={cls="plus";text="下载 / 更新 NaÏveProxy Core";left=637;top=61;right=979;bottom=89;align="left";color=3947580;dr=1;dt=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-17;name='FontAwesome');padding={left=18}};iconText='\uF0AB';notify=1;textPadding={left=50};z=23};
 cmbNetwork={cls="combobox";left=656;top=97;right=814;bottom=123;dr=1;dt=1;edge=1;items={"tcp";"kcp";"ws";"h2";"quic"};mode="dropdown";z=13};
 cmbProtocol={cls="combobox";left=656;top=28;right=814;bottom=54;dr=1;dt=1;edge=1;items={"vmess";"vless";"trojan";"trojan-go";"ssr";"shadowsocks";"naive";"socks";"https";"http"};mode="dropdown";z=12};
 cmbSecurity={cls="combobox";left=656;top=140;right=814;bottom=166;dr=1;dt=1;edge=1;items={"auto";"none";"chacha20-poly1305";"aes-128-gcm"};mode="dropdown";z=15};
 editAddress={cls="plus";left=656;top=183;right=878;bottom=207;align="left";bgcolor=16777215;border={bottom=1;color=-8355712};dr=1;dt=1;editable="edit";font=LOGFONT(h=-16);textPadding={bottom=1};z=2};
 editId={cls="plus";left=656;top=263;right=986;bottom=287;align="left";bgcolor=16777215;border={bottom=1;color=-8355712};clip=1;dr=1;dt=1;editable="edit";font=LOGFONT(h=-16);notify=1;textPadding={right=75;bottom=1};z=20};
-editOutbound={cls="edit";left=15;top=25;right=472;bottom=462;db=1;dl=1;dr=1;dt=1;edge=1;font=LOGFONT(h=-13);hscroll=1;multiline=1;vscroll=1;z=14};
-editPort={cls="plus";left=656;top=224;right=745;bottom=248;align="left";bgcolor=16777215;num=1;border={bottom=1;color=-8355712};dr=1;dt=1;editable="edit";font=LOGFONT(h=-16);textPadding={bottom=1};z=4};
+editOutbound={cls="edit";left=15;top=25;right=458;bottom=462;db=1;dl=1;dr=1;dt=1;edge=1;font=LOGFONT(h=-13);hscroll=1;multiline=1;vscroll=1;z=14};
+editPort={cls="plus";left=656;top=224;right=745;bottom=248;align="left";bgcolor=16777215;border={bottom=1;color=-8355712};dr=1;dt=1;editable="edit";font=LOGFONT(h=-16);textPadding={bottom=1};z=4};
 editPs={cls="plus";left=656;top=306;right=878;bottom=330;align="left";bgcolor=16777215;border={bottom=1;color=-8355712};dr=1;dt=1;editable="edit";font=LOGFONT(h=-16);textPadding={bottom=1};z=7};
 editSharedLink={cls="plus";left=13;top=475;right=986;bottom=499;align="left";bgcolor=16777215;border={bottom=1;color=-8355712};clip=1;db=1;dl=1;dr=1;font=LOGFONT(h=-16);notify=1;textPadding={right=150;bottom=1};z=22};
-lbId={cls="static";text="登录用户( id ):";left=492;top=262;right=641;bottom=288;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=6};
-lbSecurity={cls="static";text="加密方式( security ):";left=473;top=136;right=641;bottom=162;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=10};
+lbId={cls="static";text="登录用户( id ):";left=492;top=262;right=641;bottom=288;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=6};
+lbSecurity={cls="static";text="加密方式( security ):";left=473;top=136;right=641;bottom=162;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=10};
 qrPicture={cls="plus";left=510;top=358;right=606;bottom=454;bgcolor=16777215;db=1;dr=1;notify=1;repeat="scale";z=24};
-static={cls="static";text="服务器( address ):";left=481;top=178;right=641;bottom=204;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=3};
-static10={cls="static";text="代理协议( protocol ):";left=473;top=26;right=641;bottom=52;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=11};
-static2={cls="static";text="服务端口( port ):";left=498;top=220;right=641;bottom=246;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=5};
-static4={cls="static";text="备注( ps ):";left=498;top=304;right=641;bottom=330;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=8};
-static5={cls="static";text="传输协议( network ):";left=473;top=94;right=641;bottom=126;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-16);transparent=1;z=9}
+static={cls="static";text="服务器( address ):";left=481;top=178;right=641;bottom=204;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=3};
+static10={cls="static";text="代理协议( protocol ):";left=473;top=26;right=641;bottom=52;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=11};
+static2={cls="static";text="服务端口( port ):";left=498;top=220;right=641;bottom=246;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=5};
+static4={cls="static";text="备注( ps ):";left=498;top=304;right=641;bottom=330;align="right";bgcolor=16777215;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=8};
+static5={cls="static";text="传输协议( network ):";left=473;top=94;right=641;bottom=126;align="right";bgcolor=16777215;dl=1;dr=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');transparent=1;z=9}
 )
 /*}}*/
 
@@ -619,6 +619,18 @@ winform.qrPicture.oncommand = function(id,event){
 		frmChild.createQrCode(lnk);
 		frmChild.show();	
     }	
+}
+
+winform.editId.skin(
+	background = { 
+		hover = "/res/images/btn-hover.png";
+		focus = "/res/images/btn-focus.jpg";
+		active = "/res/images/btn-active.png";
+		disabled = "/res/images/btn-disabled.png"; 
+	}
+)
+winform.editId.oncommand = function(id,event){
+	
 }
 
 winform.show();
