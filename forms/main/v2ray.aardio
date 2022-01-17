@@ -3,15 +3,15 @@ import fonts.fontAwesome;
 /*DSG{{*/
 var frmXray = win.form(text="winXray ";right=959;bottom=591;bgcolor=16777215)
 frmXray.add(
-btnEditPacOrUwp={cls="plus";text="编辑PAC";left=328;top=367;right=447;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF1C4';notify=1;textPadding={left=30};z=7};
-btnImportServerFromClipBd={cls="plus";text="批量导入链接";left=459;top=367;right=592;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF196 ';notify=1;textPadding={left=30};z=8};
-btnTcping={cls="plus";text="检测并连接最快服务器";left=735;top=366;right=941;bottom=398;align="left";bgcolor=11580047;border={radius=4};db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=18}};iconText='\uF012';notify=1;textPadding={left=42};z=3};
-chkAutoTest={cls="plus";text="异常自动重连 ";left=598;top=367;right=729;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-13);iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C8';notify=1;textPadding={left=30};z=9};
-edit={cls="edit";left=6;top=405;right=953;bottom=585;bgcolor=0;color=16777215;db=1;dl=1;dr=1;edge=1;hscroll=1;multiline=1;vscroll=1;z=2};
+btnEditPacOrUwp={cls="plus";text="编辑PAC";left=339;top=367;right=447;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-15;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF1C4';notify=1;textPadding={left=30};z=7};
+btnImportServerFromClipBd={cls="plus";text="批量导入链接";left=433;top=367;right=583;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF196 ';notify=1;textPadding={left=30};z=8};
+btnTcping={cls="plus";text="检测并连接最快服务器";left=732;top=366;right=951;bottom=398;align="left";bgcolor=11580047;border={radius=4};db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=18}};iconText='\uF012';notify=1;textPadding={left=42};z=3};
+chkAutoTest={cls="plus";text="异常自动重连 ";left=587;top=367;right=729;bottom=397;align="left";db=1;dr=1;font=LOGFONT(h=-16;name='华文楷体');iconStyle={align="left";font=LOGFONT(h=-13;name='FontAwesome');padding={left=12}};iconText='\uF0C8';notify=1;textPadding={left=30};z=9};
+edit={cls="edit";left=6;top=405;right=953;bottom=585;autohscroll=false;bgcolor=0;color=16777215;db=1;dl=1;dr=1;edge=1;font=LOGFONT(h=-19;name='Terminal');hscroll=1;multiline=1;readonly=1;vscroll=1;z=2};
 listview={cls="listview";left=4;top=5;right=954;bottom=358;db=1;dl=1;dr=1;dt=1;edge=1;fullRow=1;gridLines=1;z=1};
-radioProxy={cls="radiobutton";text="全局代理";left=129;top=369;right=226;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-13);z=4};
-radioProxyDirect={cls="radiobutton";text="不使用代理";left=14;top=369;right=120;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-13);z=6};
-radioProxyPac={cls="radiobutton";text="PAC代理";left=234;top=369;right=321;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-13);z=5}
+radioProxy={cls="radiobutton";text="全局代理";left=129;top=369;right=226;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-16;name='华文楷体');z=4};
+radioProxyDirect={cls="radiobutton";text="不使用代理";left=14;top=369;right=120;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-16;name='华文楷体');z=6};
+radioProxyPac={cls="radiobutton";text="PAC代理";left=234;top=369;right=321;bottom=395;bgcolor=16777215;db=1;dl=1;font=LOGFONT(h=-16;name='华文楷体');z=5}
 )
 /*}}*/
 
