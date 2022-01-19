@@ -165,6 +165,7 @@ caption={cls="bkplus";text="winXray of Neolux Lee";left=67;top=6;right=727;botto
 custom={cls="custom";left=83;top=40;right=1022;bottom=679;bgcolor=16777215;db=1;dl=1;dr=1;dt=1;font=LOGFONT(h=-16;name='华文楷体');z=4};
 logo={cls="bkplus";text='\uF1D9';left=27;top=7;right=56;bottom=32;color=3054125;dl=1;dt=1;font=LOGFONT(h=-18;name='FontAwesome');z=6};
 navBar={cls="bkplus";left=0;top=0;right=83;bottom=680;bgcolor=3442175;color=16777215;db=1;dl=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');z=1};
+navCode={cls="plus";text="源码";left=0;top=336;right=85;bottom=428;bkBottom=3;bkLeft=7;bkRight=8;bkTop=2;border={color=-65536};color=16777215;dl=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');iconStyle={font=LOGFONT(h=-37;name='FontAwesome');padding={bottom=20}};iconText='\uF121';notify=1;textPadding={bottom=10};valign="bottom";x=0.5;y=0.2;z=9};
 navJsonConfig={cls="plus";text="配置";left=0;top=148;right=85;bottom=238;bkBottom=3;bkLeft=7;bkRight=8;bkTop=2;border={color=-65536};color=16777215;dl=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');iconStyle={font=LOGFONT(h=-37;name='FontAwesome');padding={bottom=20}};iconText='\uF0F6';notify=1;textPadding={bottom=10};valign="bottom";x=0.5;y=0.2;z=5};
 navStart={cls="plus";text="首页";left=0;top=48;right=85;bottom=135;bkBottom=3;bkLeft=7;bkRight=8;bkTop=2;border={color=-65536};color=16777215;dl=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');iconStyle={font=LOGFONT(h=-37;name='FontAwesome');padding={bottom=20}};iconText='\uF015';notify=1;textPadding={bottom=10};valign="bottom";x=0.5;y=0.2;z=3};
 navTools={cls="plus";text="工具";left=0;top=240;right=85;bottom=332;bkBottom=3;bkLeft=7;bkRight=8;bkTop=2;border={color=-65536};color=16777215;dl=1;dt=1;font=LOGFONT(h=-19;name='华文楷体');iconStyle={font=LOGFONT(h=-37;name='FontAwesome');padding={bottom=20}};iconText='\uF0AD';notify=1;textPadding={bottom=10};valign="bottom";x=0.5;y=0.2;z=8};
@@ -377,6 +378,18 @@ subscribe("uiCommand.HotkeyChanged",function(...){
 publish("uiCommand.HotkeyChanged");
 
 mainForm.logo.onDrawBackground = function(graphics,rc){
+	
+}
+
+mainForm.navCode.skin(
+	background = { 
+		hover = "/res/images/btn-hover.png";
+		focus = "/res/images/btn-focus.jpg";
+		active = "/res/images/btn-active.png";
+		disabled = "/res/images/btn-disabled.png"; 
+	}
+)
+mainForm.navCode.oncommand = function(id,event){
 	
 }
 

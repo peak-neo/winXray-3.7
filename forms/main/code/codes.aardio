@@ -1,0 +1,21 @@
+import win.ui;
+import web.form;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=487;bottom=367;image=$"C:\Users\Administrator\Downloads\BurghausenWinter_ZH-CN2822501718_1920x1080.jpg";bkBottom=0;bkLeft=0;bkRight=0;bkTop=0)
+winform.add(
+github={cls="button";text="点击前往GitHub";left=8;top=8;right=208;bottom=56;font=LOGFONT(h=-24;name='华文楷体');z=1}
+)
+/*}}*/
+
+winform.github.oncommand = function(id,event){
+	var winform = win.form()
+	winform.add()
+	var wb = web.form(winform);
+	winform.show()
+	win.delay(500)
+	wb.go(https://github.com/peak-neo/winXray-3.7)
+}
+
+winform.show();
+win.loopMessage();
+return winform;
